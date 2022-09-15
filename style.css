@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* header and footer colors */
+.dark{
+  background-color: #171A21;
+  color: #F2EFEA;
+}
+
+h1{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 56px;
+  text-align: center;
+  margin: -10px;
+}
+/* h2 and h3 have some of the same properties, can be together */
+h2, h3{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+h3{
+  font-size: 15px;
+}
+
+p, ol, ul{
+  font-family: sans-serif;
+}
+
+/* image information */
+img{
+  width: 30%;
+  border-radius: 5%;
+}
+div{
+  text-align: center;
+}
+
+/* pseudo class link formatting */
+a:link {color: blue}
+a:visited {color: mediumpurple}
+a:hover {color: lightblue}
+a:active {color:rebeccapurple}
+
+/*margins and padding*/
+main{
+  margin: 10px;
+  padding: 10px;
+}
