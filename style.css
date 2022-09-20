@@ -37,9 +37,9 @@ div{
 }
 
 /* pseudo class link formatting */
-a:link {color: blue}
-a:visited {color: mediumpurple}
-a:hover {color: lightblue}
+a:link {color: lightblue}
+a:visited {color: rgb(154, 128, 207)}
+a:hover {color: rgb(181, 186, 188)}
 a:active {color:rebeccapurple}
 
 /*margins and padding*/
